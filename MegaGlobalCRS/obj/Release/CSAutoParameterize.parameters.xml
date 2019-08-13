@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="megaGlobalString-Web.config Connection String" description="megaGlobalString Connection String used in web.config by the application to access the database." defaultValue="Data Source=megaglobal-server.database.windows.net;Initial Catalog=megaglobal-db;User ID=megaglobaladmin;Password=KarimSaleh@AIS12" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\source\\repos\\MegaGlobalCRS\\MegaGlobalCRS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='megaGlobalString']/@connectionString" />
+  </parameter>
+</parameters>
